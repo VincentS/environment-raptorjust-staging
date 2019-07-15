@@ -6,7 +6,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
-    DEPLOY_NAMESPACE = "change-me"
+    DEPLOY_NAMESPACE = "vs-ci-staging"
   }
   stages {
     stage('Validate Environment') {
